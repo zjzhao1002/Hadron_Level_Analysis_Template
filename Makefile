@@ -1,15 +1,15 @@
 CXX = g++
 
-ROOT_DIR=/home/zhijie/root/root
+ROOT_DIR=<Your-Path-To-ROOT>
 ROOT_CFLAGS=$(shell $(ROOT_DIR)/bin/root-config --cflags)
 ROOT_LDFLAGS=$(shell $(ROOT_DIR)/bin/root-config --ldflags)
 ROOT_LIBS=$(shell $(ROOT_DIR)/bin/root-config --libs)
 
-HEPMC2_DIR=/home/zhijie/hepmc2/install
+HEPMC2_DIR=<Your-Path-To-HepMC2>
 HEPMC2_INC=$(HEPMC2_DIR)/include
 HEPMC2_LIB=$(HEPMC2_DIR)/lib
 
-FASTJET_DIR=/home/zhijie/fastjet3/install
+FASTJET_DIR=<Your-Path-To-FastJet>
 FASTJET_CFLAGS=$(shell $(FASTJET_DIR)/bin/fastjet-config --cxxflags)
 FASTJET_LDFLAGS=$(shell $(FASTJET_DIR)/bin/fastjet-config --libs)
 
